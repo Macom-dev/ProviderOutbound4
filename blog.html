@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>Blog Outbound | Artikel Tips & Paket Outbound Batu Malang | Gemilang Katun</title>
+  <meta name="description" content="Baca artikel terbaru seputar outbound, team building, rafting, dan wisata di Batu Malang. Tips, harga paket, dan review lengkap dari Gemilang Katun Outbound." />
+  <meta name="keywords" content="blog outbound batu malang, artikel team building, tips rafting, harga paket outbound 2026, Gemilang Katun Outbound" />
+  <meta name="author" content="Gemilang Katun Outbound" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://gemilangkatunoutbound.com/blog.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gemilangkatunoutbound.com/blog.html" />
+  <meta property="og:title" content="Blog Outbound | Artikel Tips & Paket Outbound Batu Malang" />
+  <meta property="og:description" content="Baca artikel terbaru seputar outbound, team building, rafting, dan wisata di Batu Malang." />
+  <meta property="og:image" content="https://gemilangkatunoutbound.com/assets/og-image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Blog Outbound | Gemilang Katun Outbound Batu Malang" />
+  <meta name="twitter:description" content="Artikel tips outbound, harga paket 2026, dan review dari Gemilang Katun Outbound." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="favicon.svg" />
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ===========================
+       CUSTOM CSS - Blog Page
+    =========================== */
+    :root {
+      --primary:       #1a6e3c;
+      --primary-dark:  #134f2c;
+      --primary-light: #22874a;
+      --accent:        #f4a020;
+      --accent-dark:   #d4880f;
+      --bg-dark:       #0d1f14;
+      --bg-card:       #132a1a;
+      --text-light:    #e8f5ec;
+      --text-muted:    #9abfa8;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-dark);
+      color: var(--text-light);
+      overflow-x: hidden;
+    }
+    html, body { max-width: 100%; overflow-x: hidden; }
+    *, *::before, *::after { box-sizing: border-box; }
+
+    /* ===== NAVBAR ===== */
+    .navbar-custom {
+      background: rgba(13, 31, 20, 0.95);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+    .navbar-brand {
+      font-weight: 800;
+      font-size: 1.2rem;
+      color: #fff !important;
+    }
+    .navbar-brand .brand-icon {
+      background: var(--accent);
+      color: #fff;
+      border-radius: 8px;
+      padding: 4px 8px;
+      margin-right: 6px;
+      font-size: 1rem;
+    }
+    .navbar-nav .nav-link {
+      color: rgba(255,255,255,0.75) !important;
+      font-weight: 500;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+      padding: 0.5rem 0.85rem;
+    }
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link.active { color: var(--accent) !important; }
+    .navbar-toggler { border-color: rgba(255,255,255,0.2); }
+    .navbar-toggler-icon { filter: invert(1); }
+
+    /* ===== BLOG HERO ===== */
+    .blog-hero {
+      background: linear-gradient(135deg, #0d1f14 0%, #1a3d25 100%);
+      padding: 8rem 0 4rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .blog-hero::before {
+      content: '';
+      position: absolute;
+      top: -30%; right: -10%;
+      width: 450px; height: 450px;
+      border-radius: 50%;
+      background: rgba(244,160,32,0.07);
+    }
+    .blog-hero::after {
+      content: '';
+      position: absolute;
+      bottom: -20%; left: -5%;
+      width: 320px; height: 320px;
+      border-radius: 50%;
+      background: rgba(26,110,60,0.15);
+    }
+    .blog-hero-content { position: relative; z-index: 2; }
+    .hero-badge {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 50px;
+      margin-bottom: 1.2rem;
+    }
+    .blog-hero h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 1rem;
+    }
+    .blog-hero p {
+      color: var(--text-muted);
+      font-size: 1rem;
+      max-width: 560px;
+      line-height: 1.7;
+    }
+
+    /* ===== SECTION LABEL ===== */
+    .section-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--accent);
+    }
+
+    /* ===== ARTICLE CARDS ===== */
+    .articles-section { padding: 5rem 0; }
+    .article-card {
+      background: var(--bg-card);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 20px;
+      overflow: hidden;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.35s;
+    }
+    .article-card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(244,160,32,0.25);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.35);
+    }
+    .article-card-img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      display: block;
+    }
+    .article-card-img-placeholder {
+      width: 100%;
+      height: 220px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 4rem;
+      color: var(--accent);
+      opacity: 0.7;
+    }
+    .article-card-body {
+      padding: 1.6rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .article-category {
+      display: inline-block;
+      background: rgba(244,160,32,0.15);
+      color: var(--accent);
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      padding: 3px 10px;
+      border-radius: 50px;
+      margin-bottom: 0.8rem;
+    }
+    .article-card-body h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.45;
+      margin-bottom: 0.7rem;
+    }
+    .article-card-body p {
+      color: var(--text-muted);
+      font-size: 0.86rem;
+      line-height: 1.65;
+      flex: 1;
+      margin-bottom: 1.2rem;
+    }
+    .article-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+    }
+    .btn-read-article {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 0.6rem 1.4rem;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 0.85rem;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: all 0.25s;
+      align-self: flex-start;
+    }
+    .btn-read-article:hover {
+      background: var(--accent-dark);
+      color: #fff;
+      transform: translateX(4px);
+    }
+
+    /* ===== FEATURED (large card) ===== */
+    .article-card-featured .article-card-img { height: 320px; }
+    .article-card-featured h3 { font-size: 1.25rem; }
+
+    /* ===== SIDEBAR ===== */
+    .sidebar-card {
+      background: var(--bg-card);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .sidebar-card h5 {
+      font-size: 0.88rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+    .sidebar-link {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.86rem;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      transition: color 0.2s;
+    }
+    .sidebar-link:last-child { border-bottom: none; }
+    .sidebar-link:hover { color: var(--accent); }
+    .sidebar-wa {
+      background: linear-gradient(135deg, #1a6e3c, #22874a);
+      border-radius: 16px;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .sidebar-wa h5 { color: #fff; font-weight: 700; }
+    .sidebar-wa p { color: rgba(255,255,255,0.8); font-size: 0.85rem; margin-bottom: 1rem; }
+    .btn-sidebar-wa {
+      background: #25d366;
+      color: #fff;
+      border: none;
+      padding: 0.6rem 1.4rem;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 0.85rem;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: all 0.25s;
+    }
+    .btn-sidebar-wa:hover { background: #1da851; color: #fff; }
+
+    /* ===== FOOTER ===== */
+    .footer-section {
+      background: var(--bg-dark);
+      border-top: 1px solid rgba(255,255,255,0.07);
+      padding: 4rem 0 2rem;
+    }
+    .footer-brand-name { font-size: 1.2rem; font-weight: 800; color: #fff; }
+    .footer-desc { color: var(--text-muted); font-size: 0.88rem; line-height: 1.65; margin-top: 0.8rem; }
+    .footer-heading { font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #fff; margin-bottom: 1.1rem; }
+    .footer-links { list-style: none; padding: 0; margin: 0; }
+    .footer-links li { margin-bottom: 0.6rem; }
+    .footer-links a { color: var(--text-muted); text-decoration: none; font-size: 0.88rem; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--accent); }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,0.07); margin-top: 2.5rem; padding-top: 1.5rem; text-align: center; color: var(--text-muted); font-size: 0.8rem; }
+
+    /* ===== FLOATING BUTTONS ===== */
+    .floating-buttons {
+      position: fixed;
+      bottom: 2rem;
+      right: 1.5rem;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .btn-float {
+      width: 50px; height: 50px;
+      border-radius: 50%;
+      border: none;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.25rem;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-decoration: none;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
+    .btn-scroll-top {
+      background: var(--accent);
+      color: #fff;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(10px);
+      transition: all 0.35s;
+    }
+    .btn-scroll-top.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+    .btn-scroll-top:hover { background: var(--accent-dark); color: #fff; transform: translateY(-3px); }
+    .btn-whatsapp { background: #25d366; color: #fff; animation: pulse-wa 2.5s infinite; }
+    .btn-whatsapp:hover { background: #1da851; color: #fff; transform: scale(1.1); }
+    @keyframes pulse-wa {
+      0%, 100% { box-shadow: 0 6px 20px rgba(37,211,102,0.35); }
+      50% { box-shadow: 0 6px 35px rgba(37,211,102,0.65); }
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 991px) {
+      .blog-hero { padding: 7rem 0 3rem; }
+    }
+    @media (max-width: 576px) {
+      .article-card-img, .article-card-img-placeholder { height: 180px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ============================
+     NAVBAR
+============================ -->
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top" id="mainNavbar" aria-label="Main Navigation">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <span class="brand-icon"><i class="bi bi-compass"></i></span>
+      Gemilang Katun
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+      aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#services">Layanan</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#about">Tentang</a></li>
+        <li class="nav-item"><a class="nav-link active" href="blog.html" aria-current="page">Blog</a></li>
+        <li class="nav-item ms-lg-2">
+          <a class="btn" href="https://wa.me/6282211221909" target="_blank" rel="noopener"
+             style="background:var(--accent); color:#fff; padding:0.5rem 1.3rem; border-radius:10px; font-weight:700; font-size:0.85rem; text-decoration:none;">
+            <i class="bi bi-whatsapp me-1"></i> Hubungi Kami
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ============================
+     BLOG HERO
+============================ -->
+<section class="blog-hero">
+  <div class="container blog-hero-content">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-8">
+        <span class="hero-badge"><i class="bi bi-journal-text me-1"></i> Blog & Artikel</span>
+        <h1>Tips, Informasi & Inspirasi Outbound di Batu Malang</h1>
+        <p class="mx-auto">
+          Temukan artikel terbaru seputar paket outbound, harga terkini, tips team building, dan destinasi wisata terbaik dari Gemilang Katun Outbound.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================
+     ARTICLES SECTION
+============================ -->
+<section class="articles-section">
+  <div class="container">
+    <div class="row g-5">
+      <!-- Main Articles Column -->
+      <div class="col-lg-8">
+        <p class="section-label mb-4">Artikel Terbaru</p>
+        <div class="row g-4">
+
+          <!-- Article Card 1 -->
+          <div class="col-md-6">
+            <div class="article-card">
+              <div class="article-card-img-placeholder" style="background: linear-gradient(135deg, #1a3d25, #2d7a3a);">
+                <i class="bi bi-calendar-check"></i>
+              </div>
+              <div class="article-card-body">
+                <span class="article-category">Budgeting 2026</span>
+                <h3>Update Rincian Harga Paket Outbound Coban Talun 2026 Terbaru</h3>
+                <p>Memasuki RKAP tahun baru, panitia perlu mengantongi bocoran harga paket outbound Coban Talun 2026 untuk validasi anggaran yang presisi.</p>
+                <div class="article-meta">
+                  <i class="bi bi-calendar3"></i> Februari 2026
+                  <span>&bull;</span>
+                  <i class="bi bi-clock"></i> 5 menit baca
+                </div>
+                <a href="artikel1.html" class="btn-read-article">
+                  Baca Artikel <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Article Card 2 -->
+          <div class="col-md-6">
+            <div class="article-card">
+              <div class="article-card-img-placeholder" style="background: linear-gradient(135deg, #1a2540, #2d4a7a);">
+                <i class="bi bi-truck-front-fill"></i>
+              </div>
+              <div class="article-card-body">
+                <span class="article-category">Premium Adventure</span>
+                <h3>Garansi Keamanan dari Provider Fun Offroad Batu Armada Terbaru</h3>
+                <p>Memilih provider fun offroad batu armada terbaru adalah langkah mitigasi wajib untuk memastikan petualangan tidak berujung pada risiko berbahaya.</p>
+                <div class="article-meta">
+                  <i class="bi bi-calendar3"></i> Februari 2026
+                  <span>&bull;</span>
+                  <i class="bi bi-clock"></i> 5 menit baca
+                </div>
+                <a href="artikel2.html" class="btn-read-article">
+                  Baca Artikel <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Article Card 3 -->
+          <div class="col-md-6">
+            <div class="article-card">
+              <div class="article-card-img-placeholder" style="background: linear-gradient(135deg, #402a1a, #7a4a2d);">
+                <i class="bi bi-bag-check-fill"></i>
+              </div>
+              <div class="article-card-body">
+                <span class="article-category">All-in-One Corporate</span>
+                <h3>Praktis dan Terpadu via Paket Gathering Kantor Plus Oleh-oleh Batu</h3>
+                <p>Layanan paket gathering kantor plus oleh-oleh batu hadir sebagai solusi all-in-one yang sangat memanjakan panitia maupun peserta.</p>
+                <div class="article-meta">
+                  <i class="bi bi-calendar3"></i> Februari 2026
+                  <span>&bull;</span>
+                  <i class="bi bi-clock"></i> 5 menit baca
+                </div>
+                <a href="artikel3.html" class="btn-read-article">
+                  Baca Artikel <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Article Card 4 -->
+          <div class="col-md-6">
+            <div class="article-card">
+              <div class="article-card-img-placeholder" style="background: linear-gradient(135deg, #1a1a40, #2d3080);">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <div class="article-card-body">
+                <span class="article-category">City Bound Corporate</span>
+                <h3>Anti Macet, Ini Tempat Outbound Dekat Museum Angkut yang Ideal</h3>
+                <p>Mencari tempat outbound dekat museum angkut adalah siasat operasional cerdas untuk memangkas waktu tempuh dan menjaga semangat peserta.</p>
+                <div class="article-meta">
+                  <i class="bi bi-calendar3"></i> Februari 2026
+                  <span>&bull;</span>
+                  <i class="bi bi-clock"></i> 5 menit baca
+                </div>
+                <a href="artikel4.html" class="btn-read-article">
+                  Baca Artikel <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Article Card 5 -->
+          <div class="col-12">
+            <div class="article-card article-card-featured">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <div class="article-card-img-placeholder article-card-img" style="background: linear-gradient(135deg, #0d2a40, #1a4a70); height: 100%; min-height: 220px;">
+                    <i class="bi bi-water"></i>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="article-card-body">
+                    <span class="article-category">Hospitality & Beginner</span>
+                    <h3>Nyaman Mengarung Bersama Paket Rafting Batu Malang Guide Ramah</h3>
+                    <p>Memastikan vendor menawarkan paket rafting batu malang guide ramah adalah syarat mutlak agar petualangan ekstrem berubah menjadi rekreasi air penuh tawa.</p>
+                    <div class="article-meta">
+                      <i class="bi bi-calendar3"></i> Februari 2026
+                      <span>&bull;</span>
+                      <i class="bi bi-clock"></i> 5 menit baca
+                    </div>
+                    <a href="artikel5.html" class="btn-read-article">
+                      Baca Artikel <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- end row articles -->
+      </div><!-- end col-lg-8 -->
+
+      <!-- Sidebar -->
+      <div class="col-lg-4">
+        <!-- WA CTA -->
+        <div class="sidebar-wa mb-4">
+          <h5><i class="bi bi-whatsapp me-2"></i>Konsultasi Gratis</h5>
+          <p>Tanya harga paket, ketersediaan tanggal, dan detail program langsung via WhatsApp!</p>
+          <a href="https://wa.me/6282211221909" class="btn-sidebar-wa" target="_blank" rel="noopener">
+            <i class="bi bi-whatsapp"></i> 0822-1122-1909
+          </a>
+        </div>
+
+        <!-- Related Articles -->
+        <div class="sidebar-card">
+          <h5>Artikel Lainnya</h5>
+          <a href="artikel1.html" class="sidebar-link"><i class="bi bi-arrow-right-circle" style="color:var(--accent);"></i> Harga Paket Outbound Coban Talun 2026</a>
+          <a href="artikel2.html" class="sidebar-link"><i class="bi bi-arrow-right-circle" style="color:var(--accent);"></i> Fun Offroad Batu Armada Terbaru</a>
+          <a href="artikel3.html" class="sidebar-link"><i class="bi bi-arrow-right-circle" style="color:var(--accent);"></i> Gathering Kantor Plus Oleh-oleh</a>
+          <a href="artikel4.html" class="sidebar-link"><i class="bi bi-arrow-right-circle" style="color:var(--accent);"></i> Outbound Dekat Museum Angkut</a>
+          <a href="artikel5.html" class="sidebar-link"><i class="bi bi-arrow-right-circle" style="color:var(--accent);"></i> Rafting Batu Malang Guide Ramah</a>
+        </div>
+
+        <!-- Layanan -->
+        <div class="sidebar-card">
+          <h5>Layanan Utama</h5>
+          <a href="index.html#services" class="sidebar-link"><i class="bi bi-people-fill" style="color:var(--accent);"></i> Team Building</a>
+          <a href="index.html#services" class="sidebar-link"><i class="bi bi-water" style="color:var(--accent);"></i> Rafting Batu Malang</a>
+          <a href="index.html#services" class="sidebar-link"><i class="bi bi-truck-front-fill" style="color:var(--accent);"></i> Fun Offroad Batu</a>
+          <a href="index.html#services" class="sidebar-link"><i class="bi bi-building" style="color:var(--accent);"></i> Gathering Kantor</a>
+          <a href="index.html#services" class="sidebar-link"><i class="bi bi-flower1" style="color:var(--accent);"></i> Outbound Coban Talun</a>
+        </div>
+      </div><!-- end sidebar -->
+    </div>
+  </div>
+</section>
+
+<!-- ============================
+     FOOTER
+============================ -->
+<footer class="footer-section">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-4">
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <span style="background:var(--accent); color:#fff; border-radius:8px; padding:4px 8px; font-size:1rem;"><i class="bi bi-compass"></i></span>
+          <span class="footer-brand-name">Gemilang Katun Outbound</span>
+        </div>
+        <p class="footer-desc">Provider outbound profesional di Batu, Malang. Terpercaya, transparan, dan berpengalaman lebih dari satu dekade.</p>
+        <p class="footer-desc mt-2"><i class="bi bi-telephone-fill me-2" style="color:var(--accent);"></i>0822-1122-1909</p>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h5 class="footer-heading">Navigasi</h5>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#services">Layanan</a></li>
+          <li><a href="index.html#about">Tentang</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-3">
+        <h5 class="footer-heading">Artikel</h5>
+        <ul class="footer-links">
+          <li><a href="artikel1.html">Harga Outbound Coban Talun</a></li>
+          <li><a href="artikel2.html">Fun Offroad Batu</a></li>
+          <li><a href="artikel3.html">Gathering + Oleh-oleh</a></li>
+          <li><a href="artikel4.html">Outbound Dekat Museum</a></li>
+          <li><a href="artikel5.html">Rafting Guide Ramah</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h5 class="footer-heading">Kontak</h5>
+        <ul class="footer-links">
+          <li><a href="https://wa.me/6282211221909" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-1" style="color:#25d366;"></i> 0822-1122-1909</a></li>
+          <li><a href="index.html">Kembali ke Beranda</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Gemilang Katun Outbound. Hak Cipta Dilindungi.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================
+     FLOATING BUTTONS
+============================ -->
+<div class="floating-buttons" aria-label="Tombol Pintasan">
+  <!-- Scroll to Top (di atas WA) -->
+  <button id="scrollTopBtn" class="btn-float btn-scroll-top" onclick="scrollToTop()" aria-label="Kembali ke atas" title="Scroll ke atas">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+  <!-- WhatsApp -->
+  <a href="https://wa.me/6282211221909" class="btn-float btn-whatsapp" target="_blank" rel="noopener" aria-label="Hubungi via WhatsApp" title="Chat WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+</div>
+
+<!-- Bootstrap 5 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  function scrollToTop() { window.scrollTo({ top: 0, behavior: 'smooth' }); }
+  window.addEventListener('scroll', function () {
+    const btn = document.getElementById('scrollTopBtn');
+    if (window.scrollY > 300) btn.classList.add('visible');
+    else btn.classList.remove('visible');
+  });
+</script>
+
+</body>
+</html>
